@@ -19,18 +19,18 @@ export default function Menuber(){
             <div className="justify-between items-center w-ful pt-4 ul-pseudo">
                 <ul className="flex justify-center">
                     <li className="flex">
-                        <Link href="/menu" className={currentRoute === '/menu' ? activeStyle : nonActiveStyle}>
-                            <p className={currentRoute === '/menu' ? activeLi : nonActiveLi}>お弁当</p>
+                        <Link href="/" className={currentRoute === '/' ? activeStyle : nonActiveStyle}>
+                            <p className={currentRoute === '/' ? activeLi : nonActiveLi}>お弁当</p>
                         </Link>
                     </li>
                     <li className="flex px-1">
-                        <Link href="/menu/sidemenu" className={currentRoute === '/menu/sidemenu' ? activeStyle : nonActiveStyle}>
-                            <p className={currentRoute === '/menu/sidemenu' ? activeLi : nonActiveLi}>サイドメニュー</p>
+                        <Link href="/sidemenu" className={currentRoute === '/sidemenu' ? activeStyle : nonActiveStyle}>
+                            <p className={currentRoute === '/sidemenu' ? activeLi : nonActiveLi}>サイドメニュー</p>
                         </Link>
                     </li>
                     <li className="flex">
-                        <Link href="/menu/drink" className={currentRoute === '/menu/drink' ? activeStyle : nonActiveStyle}>
-                            <p className={currentRoute === '/menu/drink' ? activeLi : nonActiveLi}>ドリンク</p>
+                        <Link href="/drink" className={currentRoute === '/drink' ? activeStyle : nonActiveStyle}>
+                            <p className={currentRoute === '/drink' ? activeLi : nonActiveLi}>ドリンク</p>
                         </Link>
                     </li>
                 </ul>
