@@ -31,17 +31,17 @@ export default function Header(){
             <div className="z-40 flex justify-end pt-1">
                 <div className="flex justify-end">
                     {openMenu ? (
-                    <div className='z-40 fixed bg-white slideAreaSP w-4/6 h-full'>
+                    <div className='z-40 fixed bg-white ease-linear w-4/6 h-full sticky'>
                         <div className=''>
                             <ul className='text-start pt-6 pl-2'>
-                                <li className="p-1">
-                                    <Link href="/menu" onClick={() => menuFunction()}>お弁当</Link>
+                                <li className="pl-3 py-5 text-lg font-medium text-gray-600">
+                                    <Link href="/" onClick={() => menuFunction()}>お弁当</Link>
                                 </li>
-                                <li className="p-1" onClick={() => menuFunction()}>
-                                    <Link href="/menu/sidemenu">サイドメニュー</Link>
+                                <li className="pl-3 pb-5 text-lg font-medium text-gray-600" onClick={() => menuFunction()}>
+                                    <Link href="/sidemenu">サイドメニュー</Link>
                                 </li>
-                                <li className="p-1" onClick={() => menuFunction()}>
-                                    <Link href="/menu/drink">ドリンク</Link>
+                                <li className="pl-3 text-lg font-medium text-gray-600" onClick={() => menuFunction()}>
+                                    <Link href="/drink">ドリンク</Link>
                                 </li>
                             </ul>
                         </div>
