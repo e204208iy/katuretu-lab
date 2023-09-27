@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP&display=swap');
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
@@ -16,12 +18,119 @@
   }
 }
 
-body {
-  color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
+.splide__slide img {
+  opacity: .6; /* 左右のスライドを薄くする */
+  transform: scale(.8); /* 左右のスライドを小さくする */
+  transition: .7s; /* ゆっくり小さくさせる */
+}
+
+.splide__slide.is-active img {
+  border-radius: 15px;
+  opacity: 1;
+  transform: scale(1.2); /* 真ん中のスライドを大きく表示 */
+  /* z-index: 2; 真ん中のスライドを前面に表示 */
+}
+.splide__slide img {
+  border-radius: 15px;
+  /* width: 100%; */
+}
+
+.splide__pagenation__page.is-active button {
+  background-color: black;
+}
+
+.ul-pseudo {
+  position: relative;
+}
+
+.ul-pseudo::after {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  width: 100%;
+  height: 2px;
+  background-color: rgb(156 163 175);
+  /* z-index: 1; */
+}
+@media screen and (min-width: 1024px) {
+	.ul-pseudo::after {
+    content: '';
+    position: absolute;
+    margin-left: auto;
+    margin-right: auto;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    width: 85%;
+    height: 2px;
+    background-color: rgb(156 163 175);
+    /* z-index: 1; */
+  }
+}
+.li-pseudo {
+  position: relative;
+}
+.li-pseudo::after {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  width: 100%;
+  height: 2px;
+  background-color: white;
+  z-index: 1;
+}
+.hamburger {
+  box-sizing: border-box;
+  position: relative;
+  display: block;
+  width: 40px;
+  height: 40px;
+  cursor: pointer;
+  text-align: center;
+  padding: 10px;
+}
+.hamburger span:nth-child(1) {
+  top: 12.5px;
+}
+.hamburger span:nth-child(2) {
+  top: 19px;
+}
+.hamburger span:nth-child(3) {
+  top: 25.5px;
+}
+.hamburger span {
+  display: block;
+  position: absolute;
+  width: 20px;
+  height: 2px;
+  left:10px;
+  background: rgba(0,0,0,0.87);
+  transition: 0.3s ease-in-out;
+}
+.hamburger.active span:nth-child(1) {
+  top: 20px;
+  left: 12px;
+  background: rgba(0, 0, 0, 0.87);
+  transform: rotate(-45deg);
+}
+.hamburger.active span:nth-child(2), .hamburger.active span:nth-child(3) {
+  top: 20px;
+  left: 12px;
+  background: rgba(0, 0, 0, 0.87);
+  transform: rotate(45deg);
+}
+
+@keyframes slideAreaSP {
+  0% {
+    opacity: 0;
+    transform: translateX(-64px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateX(0);
+  }
 }
