@@ -3,7 +3,7 @@
 import Image from "next/image";
 
 import React from "react";
-import { Splide, SplideSlide } from "@splidejs/react-splide";
+import { Splide, SplideSlide } from '@splidejs/react-splide';
 import "@splidejs/react-splide/css";
 
 export default function MainSlider(){
