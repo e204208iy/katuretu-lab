@@ -6,7 +6,7 @@ export default function Sidemenu(){
         <div className="md:px-12 lg:px-24">
             <div className="px-2">
                 <div className="px-2 pb-2 lg:pt-6">
-                    <p className="text-lg xs:text-2xl font-medium pl-2 pt-4 border-gray-300 border-b-2">おすすめメニュー</p>
+                    <p className="text-lg xs:text-2xl lg:text-3xlfont-medium pl-2 pt-4 border-gray-300 border-b-2">おすすめメニュー</p>
                 </div>
                 <div className="grid grid-cols-1 lg:grid-cols-4">
                     <div className="flex justify-center pt-2">
