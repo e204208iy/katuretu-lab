@@ -31,7 +31,7 @@ export default function Header(){
             <div className="z-40 flex justify-end pt-1">
                 <div className="flex justify-end">
                     {openMenu ? (
-                    <div className='z-40 fixed bg-white ease-linear w-4/6 h-full sticky'>
+                    <div className='z-40 fixed bg-white ease-linear w-4/6 h-full'>
                         <div className=''>
                             <ul className='text-start pt-6 pl-2'>
                                 <li className="pl-3 py-5 text-lg font-medium text-gray-600">
