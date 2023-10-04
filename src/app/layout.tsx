@@ -27,7 +27,9 @@ export default function RootLayout({
         </div>
         <Menuber />
         {children}
-        <Footer />
+        <div className='pt-8'>
+          <Footer />
+        </div>
         </body>
     </html>
   )

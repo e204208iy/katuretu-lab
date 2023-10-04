@@ -4,9 +4,13 @@ export default function Menu(){
     return(
         <div className="md:px-12 lg:px-24">
             <div className="hidden lg:block pl-6 pb-5 pt-5">
-                <p className="text-3xl pt-5 pb-8 text-gray-600">鹿児島ブランド豚 <a className="text-5xl text-lime-600">茶美豚</a> を使った"とんかつ弁当"</p>
-                <p className="text-2xl pb-3">茶美豚 -チャーミートン- の特徴</p>
-                <p className="px-2 text-lg text-gray-600 leading-loose bg-amber-50 rounded-md shadow">緑茶粉末とお茶に含まれている成分「カテキン」「さつまいも」が入った飼料を食べて育った豚です。専用飼料を食べて育った豚はすくすくと育ちカテキンの効用である抗酸化作用や消臭作用により、肉の鮮度を保ち、かつ臭みが少なくビタミンEを強化しているためカテキンの抗酸化能力を高める効果があるといわれています。旨味成分であるイノシン酸が多く含まれておりジューシーであっさりしたおいしい豚肉です。</p>
+                <p className="text-3xl pt-5 pb-2 text-gray-700 border-gray-300 border-b-2">鹿児島ブランド豚 <a className="text-5xl text-lime-600">茶美豚</a> を使った"とんかつ弁当"</p>
+                <div className="pt-4">
+                    <div className="leading-loose bg-amber-50 rounded-md shadow-[0_2px_5px_0_rgba(0,0,0,0.3)]">
+                        <p className="text-2xl pb-3 pt-2 pl-2">茶美豚 -チャーミートン- の特徴</p>
+                        <p className="px-2 pb-3 text-lg text-gray-600">緑茶粉末とお茶に含まれている成分「カテキン」「さつまいも」が入った飼料を食べて育った豚です。専用飼料を食べて育った豚はすくすくと育ちカテキンの効用である抗酸化作用や消臭作用により、肉の鮮度を保ち、かつ臭みが少なくビタミンEを強化しているためカテキンの抗酸化能力を高める効果があるといわれています。旨味成分であるイノシン酸が多く含まれておりジューシーであっさりしたおいしい豚肉です。</p>
+                    </div>
+                </div>
             </div>
             <div className="px-2 pb-2 lg:pt-6">
                 <p className="text-lg xs:text-2xl md:text-3xl font-medium pl-2 pt-4 border-gray-300 border-b-2">おすすめメニュー</p>

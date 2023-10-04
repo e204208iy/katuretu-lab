@@ -29,8 +29,8 @@ export default function Menuber(){
                         </Link>
                     </li>
                     <li className="flex">
-                        <Link href="/drink" className={currentRoute === '/drink' ? activeStyle : nonActiveStyle}>
-                            <p className={currentRoute === '/drink' ? activeLi : nonActiveLi}>ドリンク</p>
+                        <Link href="/company" className={currentRoute === '/company' ? activeStyle : nonActiveStyle}>
+                            <p className={currentRoute === '/company' ? activeLi : nonActiveLi}>仕出し・企業様</p>
                         </Link>
                     </li>
                 </ul>
