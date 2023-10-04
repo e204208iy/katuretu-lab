@@ -8,14 +8,14 @@ export default function Company(){
                     <div className="shadow-[0_2px_5px_0_rgba(0,0,0,0.3)] rounded-md">
                         <div className="p-2 lg:p-6">
                             <p className="pb-2 text-lg font-medium">配達可能エリアと最低注文料金</p>
-                            <p>合計10,000円～のご注文</p>
-                            <p>久留米市</p>
-                            <p className="pt-1">合計20,000円～のご注文</p>
-                            <p>大川市　筑後市　八女市</p>
-                            <p className="pt-1">合計25,000円～のご注文</p>
-                            <p>筑紫野市　みやま市　柳川市</p>
-                            <p className="pt-1">合計40,000円～のご注文</p>
-                            <p>大牟田市</p>
+                            <p className="">・合計10,000円～のご注文</p>
+                            <p className="pl-6">久留米市</p>
+                            <p className="pt-2">・合計20,000円～のご注文</p>
+                            <p className="pl-6">大川市　筑後市　八女市</p>
+                            <p className="pt-2">・合計25,000円～のご注文</p>
+                            <p className="pl-6">筑紫野市　みやま市　柳川市</p>
+                            <p className="pt-2">・合計40,000円～のご注文</p>
+                            <p className="pl-6">大牟田市</p>
                         </div>
                     </div>
                     <div className="pt-5">
@@ -34,9 +34,7 @@ export default function Company(){
                             </div>
                             <div className="p-2 lg:hidden">
                                 <p className="text-lg pb-2 font-medium">キャンセルポリシー</p>
-                                <p>前日キャンセル（12時まで）はご注文金額の50％</p>
-                                <p>それ以降のキャンセルはご注文金額の100％</p>
-                                <p>を頂戴いたします。</p>
+                                <p>前日キャンセル（12時まで）はご注文の50％、それ以降のキャンセルはご注文金額の100％を頂戴いたします。</p>
                             </div>
                         </div>
                     </div>
