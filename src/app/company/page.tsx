@@ -1,3 +1,4 @@
+import Image from "next/image";
 
 export default function Company(){
     return(
@@ -23,6 +24,7 @@ export default function Company(){
                             <div className="p-2 lg:p-6">
                                 <p className="text-lg pb-2 font-medium">支払方法</p>
                                 <p className="font-medium">現地でのクレジットカード決済可能！</p>
+                                <Image src="/creca4.png" alt="Image 1" width={600} height={600} />
                             </div>
                         </div>
                     </div>
@@ -30,11 +32,11 @@ export default function Company(){
                         <div className="shadow-[0_2px_5px_0_rgba(0,0,0,0.3)] rounded-md">
                             <div className="hidden lg:block p-6">
                                 <p className="text-lg pb-2 font-medium">キャンセルポリシー</p>
-                                <p>前日キャンセル（12時まで）はご注文の50％、それ以降のキャンセルはご注文金額の100％を頂戴いたします。</p>
+                                <p>前日キャンセル（12時まで）はご注文の50％、それ以降のキャンセルはご注文金額の100％を頂戴いたします。ただし、土日祝と店舗の定休日を除く。</p>
                             </div>
                             <div className="p-2 lg:hidden">
                                 <p className="text-lg pb-2 font-medium">キャンセルポリシー</p>
-                                <p>前日キャンセル（12時まで）はご注文の50％、それ以降のキャンセルはご注文金額の100％を頂戴いたします。</p>
+                                <p>前日キャンセル（12時まで）はご注文の50％、それ以降のキャンセルはご注文金額の100％を頂戴いたします。ただし、土日祝と店舗の定休日を除く。</p>
                             </div>
                         </div>
                     </div>
