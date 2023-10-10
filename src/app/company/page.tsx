@@ -41,7 +41,41 @@ export default function Company(){
                         </div>
                     </div>
                 </div>
-
+                <div className="pt-7">
+                    <p className="text-lg xs:text-2xl lg:text-3xl font-medium border-gray-300 border-b-2">当店のお弁当</p>
+                </div>
+                <div className="grid grid-cols-1 lg:grid-cols-2 pt-3">
+                    <div className="col-span-1 px-2">
+                        <Image src="/rosubgb.png" alt="Image 1" width={500} height={700} className="rounded-md shadow" />
+                    </div>
+                    <div className="grid grid-cols-4 gap-1 pt-3 lg:pt-0 xs:text-lg sx:text-xl md:text-2xl">
+                        <div className="col-span-3">
+                            <p className="font-medium pl-2 lg:pb-4 text-lg xs:text-2xl lg:text-3xl">ロース</p>
+                            <p className="pl-2 pb-3">黒耀のとんかつ弁当　ロース</p>
+                            <p className="pb-4 pl-2">黒耀のとんかつ弁当　特上ロース</p>
+                        </div>
+                        <div className="text-right font-medium">
+                            <p className="font-medium pl-2 lg:pb-4 text-lg xs:text-2xl lg:text-3xl">　</p>
+                            <p className="px-2 pb-3">1,404円</p>
+                            <p className="pb-4 px-2">2,160円</p>
+                        </div>
+                    </div>
+                    <div className="col-span-1 px-2 lg:pt-5">
+                        <Image src="/hirebgb.png" alt="Image 1" width={500} height={700} className="rounded-md shadow" />
+                    </div>
+                    <div className="grid grid-cols-4 gap-1 pt-3 lg:pt-5 xs:text-lg sx:text-xl md:text-2xl">
+                        <div className="col-span-3">
+                            <p className="font-medium pl-2 lg:pb-4 text-lg xs:text-2xl lg:text-3xl">ヒレ</p>
+                            <p className="pt-2 pl-2 pb-3">黒耀のとんかつ弁当　ヒレ</p>
+                            <p className="pb-4 pl-2">黒耀のとんかつ弁当　特上ヒレ</p>
+                        </div>
+                        <div className="text-right font-medium">
+                            <p className="font-medium pl-2 lg:pb-4 text-lg xs:text-2xl lg:text-3xl">　</p>
+                            <p className="pt-2 px-2 pb-3">1,512円</p>
+                            <p className="pb-4 px-2">2,160円</p>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
     )

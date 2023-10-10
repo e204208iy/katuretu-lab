@@ -10,7 +10,7 @@ export default function Sidemenu(){
                 </div>
                 <div className="grid grid-cols-1 lg:grid-cols-4">
                     <div className="flex justify-center pt-2">
-                        <Image src="/korokke.jpg" alt="Image 1" width={300} height={300} className="rounded-md shadow" />
+                        <Image src="/korokke.jpg" alt="Image 1" width={300} height={300} className="rounded-md shadow-[0_2px_5px_0_rgba(0,0,0,0.3)]" />
                     </div>
                     <div className="col-span-2 grid grid-cols-4 gap-1 pt-2 xs:text-lg md:text-2xl">
                         <div className="col-span-3">
@@ -30,7 +30,7 @@ export default function Sidemenu(){
                     <div className="col-span-1 hidden md:block">
                     </div>
                     <div className="col-span-1 flex justify-center pt-2">
-                        <Image src="/tatuta.JPG" alt="Image 1" width={300} height={300} className="rounded-md shadow" />
+                        <Image src="/tatuta.JPG" alt="Image 1" width={300} height={300} className="rounded-md shadow-[0_2px_5px_0_rgba(0,0,0,0.3)]" />
                     </div>
                     <div className="col-span-2 grid grid-cols-4 gap-1 xs:text-lg md:text-2xl">
                         <div className="col-span-3">
