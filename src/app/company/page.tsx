@@ -1,5 +1,5 @@
 import Image from "next/image";
-
+import LgBento from "../component/lgBento";
 export default function Company(){
     return(
         <div className="md:px-12 lg:px-24">
@@ -44,7 +44,10 @@ export default function Company(){
                 <div className="pt-7">
                     <p className="text-lg xs:text-2xl lg:text-3xl font-medium border-gray-300 border-b-2">当店のお弁当</p>
                 </div>
-                <div className="grid grid-cols-1 lg:grid-cols-2 pt-3">
+                <div className="hidden lg:block">
+                    <LgBento />
+                </div>
+                <div className="lg:hidden grid grid-cols-1 pt-3">
                     <div className="col-span-1 px-2">
                         <Image src="/rosubgb.png" alt="Image 1" width={500} height={700} className="rounded-md shadow" />
                     </div>
