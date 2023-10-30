@@ -67,7 +67,7 @@ export default function Company(){
                         </div>
                     </div>
                     <div className="col-span-1 px-2 lg:pt-5">
-                        <Image src="/hirebgb.png" alt="Image 1" width={500} height={700} className="rounded-md shadow" />
+                        <Image src="/hirebgb.png" alt="Image 1" width={500} height={700} unoptimized={true} className="rounded-md shadow" />
                     </div>
                     <div className="grid grid-cols-4 gap-1 pt-3 lg:pt-5 xs:text-lg sx:text-xl md:text-2xl">
                         <div className="col-span-3">
@@ -86,7 +86,7 @@ export default function Company(){
                     <p className="text-lg md:text-3xl text-gray-800 font-medium">鹿児島ブランド豚「茶美豚」を使用</p>
                 </div>
                 <div className="pt-7">
-                    <Image src="/chamiton.jpg" alt="Image 1" width={600} height={600} className="rounded-md shadow-[0_2px_5px_0_rgba(0,0,0,0.3)]" />
+                    <Image src="/chamiton.jpg" alt="Image 1" width={600} height={600} unoptimized={true} className="rounded-md shadow-[0_2px_5px_0_rgba(0,0,0,0.3)]" />
                 </div>
                 <div className="pt-3 text-gray-600 text-base ">
                     <p>緑茶粉末とお茶に含まれている成分「カテキン」、「さつまいも」が入った飼料を食べて育った豚が「茶美豚」（ちゃーみーとん）です。茶美豚の専用飼料を食べた豚はすくすくと育つため、ジューシーであっさりした臭みを感じないおいしい豚肉になっています。</p>

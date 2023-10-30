@@ -13,7 +13,7 @@ export default function Menu(){
             <div className="lg:hidden grid grid-cols-1 pt-3">
                 <div>
                     <div className="col-span-1 px-2">
-                        <Image src="/rosubgb.png" alt="Image 1" width={600} height={800} className="rounded-md shadow-[0_2px_5px_0_rgba(0,0,0,0.3)]" />
+                        <Image src="/rosubgb.png" alt="Image 1" width={600} height={800} unoptimized={true} className="rounded-md shadow-[0_2px_5px_0_rgba(0,0,0,0.3)]" />
                     </div>
                     <div className="grid grid-cols-4 gap-1 pt-3 lg:pt-0 xs:text-lg sx:text-xl md:text-2xl">
                         <div className="col-span-3">
@@ -29,7 +29,7 @@ export default function Menu(){
                     </div>
                 </div>
                 <div className="col-span-1 px-2 pt-4 lg:pt-5">
-                    <Image src="/hirebgb.png" alt="Image 1" width={500} height={700} className="rounded-md shadow-[0_2px_5px_0_rgba(0,0,0,0.3)]" />
+                    <Image src="/hirebgb.png" alt="Image 1" width={500} height={700} unoptimized={true} className="rounded-md shadow-[0_2px_5px_0_rgba(0,0,0,0.3)]" />
                 </div>
                 <div className="grid grid-cols-4 gap-1 pt-3 lg:pt-5 xs:text-lg sx:text-xl md:text-2xl">
                     <div className="col-span-3">
@@ -50,7 +50,7 @@ export default function Menu(){
             <div className="grid grid-cols-1 lg:grid-cols-2">
                 <div className="col-span-1">
                     <div className="px-2 pt-2">
-                        <Image src="/carry1.png" alt="Image 1" width={500} height={700} className="rounded-md shadow-[0_2px_5px_0_rgba(0,0,0,0.3)]" />
+                        <Image src="/carry1.png" alt="Image 1" width={500} height={700} unoptimized={true} className="rounded-md shadow-[0_2px_5px_0_rgba(0,0,0,0.3)]" />
                     </div>
                     <div className="px-2 pt-1">
                         <p className="text-sm md:text-lg">※カレーは全て千切りキャベツ付き</p>
