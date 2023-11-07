@@ -17,28 +17,33 @@ export default function Header(){
             <div className="top-0 z-50 shadow-md pt-2 bg-white">
                 <div className="flex flex-wrap justify-between items-center mx-auto max-w-screen-xl">
                     <div className="flex justify-start">
-                        <Link href="/">
-                            <Image src="/logo.jpg" alt="log" width={60} height={60} className="pl-3 pb-2 w-10 h-10 xs:w-14 xs:h-14 md:w-16 md:h-16" />
-                        </Link>
+                        <div>
+                            <Link href="/">
+                                <Image src="/logo.jpg" alt="log" width={60} height={60} className="pl-3 pb-2 w-10 h-10 xs:w-14 xs:h-14 md:w-16 md:h-16" />
+                            </Link>
+                        </div>
+                        <div className="hidden md:block pt-4 pl-10">
+                            <ul className="flex tracking-wider font-medium text-gray-600">
+                                <li className="pr-10">
+                                    <Link href="/">
+                                        こだわり
+                                    </Link>
+                                </li>
+                                <li className="pr-10">
+                                    <Link href="/company">
+                                        仕出し・企業様
+                                    </Link>
+                                </li>
+                                <li className="pr-20">
+                                    <Link href="/access">
+                                        お店の場所
+                                    </Link>
+                                </li>
+                            </ul>
+                        </div>
                     </div>
-                    <div className="hidden md:block">
-                        <ul className="flex tracking-wider font-medium text-gray-600">
-                            <li className="pr-10">
-                                <Link href="/">
-                                    こだわり
-                                </Link>
-                            </li>
-                            <li className="pr-10">
-                                <Link href="/company">
-                                    仕出し・企業様
-                                </Link>
-                            </li>
-                            <li className="pr-20">
-                                <Link href="/access">
-                                    お店の場所
-                                </Link>
-                            </li>
-                        </ul>
+                    <div className="hidden lg:block">
+                        <p className="text-xl tracking-wider font-medium text-gray-600 pr-5">かつれつLab.黒耀</p>
                     </div>
                     <div onClick={() => menuFunction()} className={openMenu ? activeStyle : nonactiveStyle}>
                         <span></span>

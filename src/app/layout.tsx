@@ -22,7 +22,7 @@ export default function RootLayout({
   return (
     <html lang="ja">
       <body className="inter.className">
-        <div className='hidden md:block pb-3'>
+        <div className='hidden md:block pb-2'>
           <Header />
         </div>
         <div className='md:hidden'>

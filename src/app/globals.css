@@ -182,8 +182,8 @@
 .radio__label-icon {
   display: inline-block;
   position: relative;
-  width: 23px;
-  height: 23px;
+  width: 22px;
+  height: 22px;
   border: solid 1px #d15006;
   border-radius: 50%;
 }
@@ -195,8 +195,8 @@ input:checked + .radio__label .radio__label-icon::before {
   content: '';
   display: inline-block;
   position: absolute;
-  width: 15px;
-  height: 15px;
+  width: 14px;
+  height: 14px;
   background: #d15006;
   border-radius: 50%;
   top: 3px;

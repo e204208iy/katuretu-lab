@@ -1,5 +1,6 @@
 import Image from "next/image";
 import LgBento from "./component/lgBento";
+import LgCarry from "./component/LgCarry";
 export default function Menu(){
     return(
         <div>
@@ -45,9 +46,12 @@ export default function Menu(){
                 </div>
             </div>
             <div className="px-2 pb-2 pt-6 text-gray-700">
-                <p className="text-lg xs:text-2xl sx:text-xl md:text-3xl font-medium pl-2 pt-4 border-gray-300 border-b-2">カレー</p>
+                <p className="text-lg xs:text-2xl sx:text-xl md:text-3xl font-medium pl-2 pt-4 border-gray-300 border-b-2 tracking-wider">カレー</p>
             </div>
-            <div className="grid grid-cols-1 lg:grid-cols-2">
+            <div className="hidden lg:block">
+                <LgCarry />
+            </div>
+            <div className="lg:hidden grid grid-cols-1 lg:grid-cols-2">
                 <div className="col-span-1">
                     <div className="px-2 pt-2">
                         <Image src="/carry1.png" alt="Image 1" width={500} height={700} unoptimized={true} className="rounded-md shadow-[0_2px_5px_0_rgba(0,0,0,0.3)]" />
@@ -72,34 +76,31 @@ export default function Menu(){
                 </div>
             </div>
             <div className="px-2 pb-2 pt-6 text-gray-700">
-                <p className="text-lg xs:text-2xl md:text-3xl font-medium pl-2 pt-4 border-gray-300 border-b-2">レギュラーメニュー</p>
+                <p className="text-lg xs:text-2xl md:text-3xl font-medium pl-2 pt-4 border-gray-300 border-b-2 tracking-wider">レギュラーメニュー</p>
             </div>
-            <div className="grid grid-cols-2 lg:grid-cols-4 gap-1 pt-2 xs:text-lg md:text-2xl">
-                <div className="col-span-2">
-                </div>
-                <div className="col-span-1 ">
-                    <p className="p-2">メンチカツ弁当</p>
-                    <p className="p-2">チキンカツ弁当</p>
-                    <p className="p-2">Bigチキンカツ弁当</p>
-                    <p className="p-2">竜田揚げ弁当</p>
-                </div>
-                <div className="text-right font-medium">
-                    <p className="p-2">918円</p>
-                    <p className="p-2">918円</p>
-                    <p className="p-2">1,188円</p>
-                    <p className="p-2">810円</p>
-                </div>
-            </div>
-            <div className="grid grid-cols-2 lg:grid-cols-4 gap-1 pt-4 xs:text-lg md:text-2xl">
-                <div className="col-span-2">
-                </div>
+            <div className="grid grid-cols-1 lg:grid-cols-2">
                 <div className="col-span-1">
-                    <p className="p-2">ハンバーグ弁当</p>
-                    <p className="p-2">ダブルハンバーグ弁当</p>
+                    <div className="px-2 pt-2">
+                        <Image src="/mentibgb.png" alt="Image 1" width={500} height={700} unoptimized={true} className="rounded-md shadow-[0_2px_5px_0_rgba(0,0,0,0.3)]" />
+                    </div>
                 </div>
-                <div className="text-right font-medium">
-                    <p className="p-2">918円</p>
-                    <p className="p-2">1,350円</p>
+                <div className="grid grid-cols-3 gap-1 pt-2 xs:text-lg sx:text-xl md:text-2xl leading-loose">
+                    <div className="col-span-2">
+                        <p className="p-2">メンチカツ弁当</p>
+                        <p className="p-2">チキンカツ弁当</p>
+                        <p className="p-2">Bigチキンカツ弁当</p>
+                        <p className="p-2">竜田揚げ弁当</p>
+                        <p className="p-2">ハンバーグ弁当</p>
+                        <p className="p-2">ダブルハンバーグ弁当</p> 
+                    </div>
+                    <div className="text-right font-medium">
+                        <p className="p-2">918円</p>
+                        <p className="p-2">918円</p>
+                        <p className="p-2">1,188円</p>
+                        <p className="p-2">810円</p>
+                        <p className="p-2">918円</p>
+                        <p className="p-2">1,350円</p>
+                    </div>
                 </div>
             </div>
         </div>

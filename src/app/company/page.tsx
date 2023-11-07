@@ -1,5 +1,7 @@
 import Image from "next/image";
-import LgBento from "../component/lgBento";
+import LgBentoToComp from "../component/LgBentToComp";
+
+
 export default function Company(){
     return(
         <div>
@@ -48,7 +50,7 @@ export default function Company(){
                     <p className="text-lg xs:text-2xl md:text-3xl font-medium border-gray-300 border-b-2 text-gray-800">当店のお弁当</p>
                 </div>
                 <div className="hidden lg:block">
-                    <LgBento />
+                    <LgBentoToComp />
                 </div>
                 <div className="lg:hidden grid grid-cols-1 pt-3">
                     <div className="col-span-1 px-2">
@@ -83,7 +85,7 @@ export default function Company(){
                     </div>
                 </div>
                 <div className="pt-5">
-                    <p className="text-lg md:text-3xl text-gray-800 font-medium">鹿児島ブランド豚「茶美豚」を使用</p>
+                    <p className="text-lg md:text-3xl text-gray-800 font-medium tracking-wider">鹿児島ブランド豚「茶美豚」を使用</p>
                 </div>
                 <div className="pt-7">
                     <Image src="/chamiton.jpg" alt="Image 1" width={600} height={600} unoptimized={true} className="rounded-md shadow-[0_2px_5px_0_rgba(0,0,0,0.3)]" />
