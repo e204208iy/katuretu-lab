@@ -6,7 +6,7 @@ export default function LgBento(){
                 <div className="grid col-span-1">
                     <div className=" bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
                         <a href="#">
-                            <Image src="/rosubgb.png" alt="Image 1" width={1000} height={1000} className="rounded-t-md" />
+                            <Image src="/rosubgb.png" alt="Image 1" width={1000} height={1000} className="rounded-t-md" unoptimized={true} />
                         </a>
                         <div className="px-3 pt-3">
                             <a href="#">
@@ -26,7 +26,7 @@ export default function LgBento(){
                 <div className="grid col-span-1">
                     <div className=" bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
                         <a href="#">
-                        <Image src="/hirebgb.png" alt="Image 1" width={1000} height={1000} className="rounded-t-md" />
+                        <Image src="/hirebgb.png" alt="Image 1" width={1000} height={1000} className="rounded-t-md" unoptimized={true} />
                         </a>
                         <div className="px-3 pt-3">
                             <a href="#">
@@ -46,16 +46,18 @@ export default function LgBento(){
                 <div className="grid col-span-1">
                     <div className=" bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
                         <div>
-                            <Image src="/white-2-2.png" alt="Image 1" width={1000} height={1000} className="rounded-t-md" />
+                            <Image src="/kaki.png" alt="Image 1" width={1000} height={1000} className="rounded-t-md" unoptimized={true} />
                         </div>
                         <div className="px-3 pt-3">
                             <p>
-                                <h5 className="mb-2 text-xl font-bold text-gray-900 dark:text-white tracking-wider">ロースカツ弁当</h5>
+                                <h5 className="mb-2 text-xl font-bold text-gray-900 dark:text-white tracking-wider">季節限定</h5>
                             </p>
                             <div className="md:text-lg">
                                 <div className="">
-                                    <p className="pt-2 pl-2 pb-1">茶美豚ロースカツ弁当</p>
-                                    <p className="pt-2 px-2 pb-3 font-bold">980円</p>
+                                    <p className="pl-2 pb-1">カキフライ弁当(3粒)</p>
+                                    <p className="px-2 pb-3 font-bold">1,296円</p>
+                                    <p className="pl-2 pb-1">カキフライ弁当(4粒)</p>
+                                    <p className="px-2 pb-3 font-bold">1,674円</p>
                                 </div>
                             </div>
                         </div>

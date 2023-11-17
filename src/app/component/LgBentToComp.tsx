@@ -6,7 +6,7 @@ export default function LgBentoToComp(){
                 <div className="grid col-span-1 grid-cols-1">
                     <div className=" bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
                         <a href="#">
-                            <Image src="/rosubgb.png" alt="Image 1" width={1000} height={1000} className="rounded-t-md" />
+                            <Image src="/rosubgb.png" alt="Image 1" width={1000} height={1000} className="rounded-t-md" unoptimized={true} />
                         </a>
                         <div className="p-5">
                             <a href="#">
@@ -28,7 +28,7 @@ export default function LgBentoToComp(){
                 <div className="grid col-span-1 grid-cols-1">
                     <div className=" bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
                         <a href="#">
-                        <Image src="/hirebgb.png" alt="Image 1" width={1000} height={1000} className="rounded-t-md" />
+                        <Image src="/hirebgb.png" alt="Image 1" width={1000} height={1000} className="rounded-t-md" unoptimized={true} />
                         </a>
                         <div className="p-5">
                             <a href="#">

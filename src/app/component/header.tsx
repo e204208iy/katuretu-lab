@@ -9,21 +9,21 @@ export default function Header(){
     const menuFunction = () => {
         setOpenMenu(!openMenu);
     }
-    const nonactiveStyle = " md:hidden flex justify-center pr-5 hamburger "
-    const activeStyle = " md:hidden flex justify-center pr-5 hamburger active "
+    const nonactiveStyle = " md:hidden flex justify-center pr-5 hamburger z-50"
+    const activeStyle = " md:hidden flex justify-center pr-5 hamburger active z-50"
     
     return(
         <div>
-            <div className="top-0 z-50 shadow-md pt-2 bg-white">
-                <div className="flex flex-wrap justify-between items-center mx-auto max-w-screen-xl">
-                    <div className="flex justify-start">
+            <div className="z-50 shadow-md pt-2 bg-white">
+                <div className="z-50 flex flex-wrap justify-between items-center mx-auto max-w-screen-xl">
+                    <div className="z-50 flex justify-start">
                         <div>
                             <Link href="/">
-                                <Image src="/logo.jpg" alt="log" width={60} height={60} className="pl-3 pb-2 w-10 h-10 xs:w-14 xs:h-14 md:w-16 md:h-16" />
+                                <Image src="/logo.jpg" alt="log" unoptimized={true} width={60} height={60} className="pl-3 pb-2 w-10 h-10 xs:w-14 xs:h-14 md:w-16 md:h-16" />
                             </Link>
                         </div>
-                        <div className="hidden md:block pt-4 pl-10">
-                            <ul className="flex tracking-wider font-medium text-gray-600">
+                        <div className="z-50 hidden md:block pt-4 pl-10">
+                            <ul className="z-50 flex tracking-wider font-medium text-gray-600">
                                 <li className="pr-10">
                                     <Link href="/">
                                         こだわり
@@ -43,7 +43,7 @@ export default function Header(){
                         </div>
                     </div>
                     <div className="hidden lg:block">
-                        <p className="text-xl tracking-wider font-medium text-gray-600 pr-5">かつれつLab.黒耀</p>
+                        <p className="text-xl tracking-widest font-medium text-gray-600 pr-5">かつれつLab.黒耀</p>
                     </div>
                     <div onClick={() => menuFunction()} className={openMenu ? activeStyle : nonactiveStyle}>
                         <span></span>
@@ -53,11 +53,17 @@ export default function Header(){
                 </div>
             </div>
             <div className="z-40 flex justify-end pt-1">
-                <div className="flex justify-end">
+                <div className="z-40 flex justify-end">
                     {openMenu ? (
-                    <div className='z-40 fixed bg-white ease-linear w-4/6 h-full'>
-                        <div className=''>
-                            <ul className='text-start pt-6 pl-2'>
+                    <div className='z-40 fixed bg-white w-5/6 h-full top-0 transition-all -translate-x duration-1000'>
+                        <div className='z-40'>
+                            <ul className='z-40 text-start pt-6 pl-2'>
+                                <li className="pl-3 py-5 text-lg font-medium text-gray-600">
+                                    <Link href="/access" onClick={() => menuFunction()}>お店の場所</Link>
+                                </li>
+                                <li className="pl-3 py-5 text-lg font-medium text-gray-600">
+                                    <Link href="/company" onClick={() => menuFunction()}>企業様</Link>
+                                </li>
                                 <li className="pl-3 py-5 text-lg font-medium text-gray-600">
                                     <Link href="/" onClick={() => menuFunction()}>お弁当</Link>
                                 </li>

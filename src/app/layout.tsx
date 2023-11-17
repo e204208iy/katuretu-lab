@@ -45,7 +45,7 @@ export default function RootLayout({
         <div className='pt-8'>
           <Footer />
         </div>
-        </body>
+      </body>
     </html>
   )
 }

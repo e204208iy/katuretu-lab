@@ -13,7 +13,7 @@ export default function Menuber(){
     const nonActiveStyle = linkStyle + " font-semibold pt-3 px-3 text-gray-500 border-gray-200 border-x-2 border-t-2 ";
 
     const activeLi = " bg-red-600 px-3 py-2 rounded-t-md w-full"
-    const nonActiveLi = " w-full"
+    const nonActiveLi = " rounded-t-md w-full"
     return(
         <div className="">
             <div className="justify-between items-center w-ful pt-4 ul-pseudo">
