@@ -24,7 +24,7 @@ export default function Menu(){
                                     <p className="pb-2">ロース</p>
                                     <p className="font-extrabold">1,404円</p>
                                 </div>
-                                <div className="px-1 pt-3">
+                                <div className="px-1 pt-4">
                                     <p className="">黒耀のとんかつ弁当</p>
                                     <p className="pb-2">特上ロース</p>
                                     <p className="font-extrabold">2,160円</p>
@@ -45,7 +45,7 @@ export default function Menu(){
                                     <p className="pb-2">ヒレ</p>
                                     <p className="font-extrabold">1,512円</p>
                                 </div>
-                                <div className="px-1 pt-3">
+                                <div className="px-1 pt-4">
                                     <p className="">黒耀のとんかつ弁当</p>
                                     <p className="pb-2">特上ヒレ</p>
                                     <p className="font-extrabold">2,160円</p>
@@ -61,7 +61,7 @@ export default function Menu(){
             <div className="hidden lg:block">
                 <LgCarry />
             </div>
-            <div className="lg:hidden grid grid-cols-1 lg:grid-cols-2">
+            <div className="lg:hidden grid grid-cols-1 lg:grid-cols-2 px-4">
                 <div className="col-span-1">
                     <div className="px-2 pt-2">
                         <Image src="/carry1.png" alt="Image 1" width={500} height={700} unoptimized={true} className="rounded-md shadow-[0_2px_5px_0_rgba(0,0,0,0.3)]" />
@@ -88,15 +88,17 @@ export default function Menu(){
             <div className="px-2 pb-2 pt-6 text-gray-700">
                 <p className="text-lg xs:text-2xl md:text-3xl font-medium pl-2 pt-4 border-gray-300 border-b-2 tracking-wider">レギュラーメニュー</p>
             </div>
-            <div className="grid grid-cols-1 lg:grid-cols-2">
+            <div className="grid grid-cols-1 lg:grid-cols-2 px-4">
                 <div className="col-span-1">
                     <div className="px-2 pt-2">
                         <Image src="/mentibgb.png" alt="Image 1" width={500} height={700} unoptimized={true} className="rounded-md shadow-[0_2px_5px_0_rgba(0,0,0,0.3)]" />
                     </div>
                 </div>
                 <div className="grid grid-cols-3 gap-1 pt-2 xs:text-lg sx:text-xl md:text-2xl leading-loose">
-                    <div className="col-span-2">
+                    <div className="col-span-2 px-3">
                         <p className="p-2">茶美豚ロースカツ弁当</p>
+                        <p className="p-2">生姜焼き弁当　ロース</p>
+                        <p className="p-2">生姜焼き弁当　ヒヒレ</p>
                         <p className="p-2">メンチカツ弁当</p>
                         <p className="p-2">チキンカツ弁当</p>
                         <p className="p-2">Bigチキンカツ弁当</p>
@@ -104,8 +106,10 @@ export default function Menu(){
                         <p className="p-2">ハンバーグ弁当</p>
                         <p className="p-2">ダブルハンバーグ弁当</p> 
                     </div>
-                    <div className="text-right font-medium">
+                    <div className="text-right font-medium px-3">
                         <p className="p-2">950円</p>
+                        <p className="p-2">918円</p>
+                        <p className="p-2">918円</p>
                         <p className="p-2">918円</p>
                         <p className="p-2">918円</p>
                         <p className="p-2">1,188円</p>
