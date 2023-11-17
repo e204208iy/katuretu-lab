@@ -12,12 +12,14 @@ export default function Header(){
     const nonactiveStyle = " md:hidden flex justify-center pr-5 hamburger z-50"
     const activeStyle = " md:hidden flex justify-center pr-5 hamburger active z-50"
     
+    const menuNonctiveStyle = " hidden";
+    const menuActiveStyle = " z-40 fixed bg-white w-4/6 h-full top-0 transition transform transition-all translate-x-0 overflow-y-auto duration-1000";
     return(
         <div>
             <div className="z-50 shadow-md pt-2 bg-white">
-                <div className="z-50 flex flex-wrap justify-between items-center mx-auto max-w-screen-xl">
+                <div className="z-50 flex flex-wrap justify-between items-center mx-auto">
                     <div className="z-50 flex justify-start">
-                        <div>
+                        <div className="pl-4">
                             <Link href="/">
                                 <Image src="/logo.jpg" alt="log" unoptimized={true} width={60} height={60} className="pl-3 pb-2 w-10 h-10 xs:w-14 xs:h-14 md:w-16 md:h-16" />
                             </Link>
@@ -54,29 +56,44 @@ export default function Header(){
             </div>
             <div className="z-40 flex justify-end pt-1">
                 <div className="z-40 flex justify-end">
-                    {openMenu ? (
-                    <div className='z-40 fixed bg-white w-5/6 h-full top-0 transition-all -translate-x duration-1000'>
+                    <div className={openMenu ? menuActiveStyle : menuNonctiveStyle}>
                         <div className='z-40'>
-                            <ul className='z-40 text-start pt-6 pl-2'>
-                                <li className="pl-3 py-5 text-lg font-medium text-gray-600">
-                                    <Link href="/access" onClick={() => menuFunction()}>お店の場所</Link>
+                            <ul className='z-40 text-start pt-12 pl-2'>
+                                <li className="pl-3 py-5 text-lg font-medium text-gray-600 w-52">
+                                    <Link href="/access" onClick={() => menuFunction()} className="">
+                                        <div className="flex justify-between">
+                                            <p>お店の場所</p>
+                                            <span className="nav-menu justify-end"></span>
+                                        </div>
+                                    </Link>
                                 </li>
-                                <li className="pl-3 py-5 text-lg font-medium text-gray-600">
-                                    <Link href="/company" onClick={() => menuFunction()}>企業様</Link>
+                                <li className="pl-3 py-5 text-lg font-medium text-gray-600 w-52">
+                                <Link href="/company" onClick={() => menuFunction()} className="">
+                                    <div className="flex justify-between">
+                                        <p>企業様</p>
+                                        <span className="nav-menu justify-end"></span>
+                                    </div>
+                                    </Link>
                                 </li>
-                                <li className="pl-3 py-5 text-lg font-medium text-gray-600">
-                                    <Link href="/" onClick={() => menuFunction()}>お弁当</Link>
+                                <li className="pl-3 py-5 text-lg font-medium text-gray-600 w-52">
+                                    <Link href="/" onClick={() => menuFunction()} className="">
+                                    <div className="flex justify-between">
+                                        <p>お弁当</p>
+                                        <span className="nav-menu justify-end"></span>
+                                    </div>
+                                    </Link>
                                 </li>
-                                <li className="pl-3 pb-5 text-lg font-medium text-gray-600" onClick={() => menuFunction()}>
-                                    <Link href="/sidemenu">サイドメニュー</Link>
-                                </li>
-                                <li className="pl-3 text-lg font-medium text-gray-600" onClick={() => menuFunction()}>
-                                    <Link href="/drink">ドリンク</Link>
+                                <li className="pl-3 pb-5 text-lg font-medium text-gray-600 w-52" onClick={() => menuFunction()}>
+                                    <Link href="/sidemenu" className="">
+                                    <div className="flex justify-between">
+                                        <p>サイドメニュー</p>
+                                        <span className="nav-menu justify-end"></span>
+                                    </div>
+                                    </Link>
                                 </li>
                             </ul>
                         </div>
                     </div>
-                    ) : undefined}
                 </div>
             </div>
         </div>

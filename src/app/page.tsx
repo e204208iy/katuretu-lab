@@ -17,7 +17,7 @@ export default function Menu(){
                         <a href="#">
                             <Image src="/rosubgb.png" alt="Image 1" width={1000} height={1000} className="rounded-t-md" unoptimized={true} />
                         </a>
-                        <div className="p-1">
+                        <div className="p-1 px-1">
                             <div className="pt-1 lg:pt-0 md:text-xl">
                                 <div className="px-1">
                                     <p className="">黒耀のとんかつ弁当</p>
@@ -27,7 +27,7 @@ export default function Menu(){
                                 <div className="px-1 pt-4">
                                     <p className="">黒耀のとんかつ弁当</p>
                                     <p className="pb-2">特上ロース</p>
-                                    <p className="font-extrabold">2,160円</p>
+                                    <p className="font-extrabold pb-3">2,160円</p>
                                 </div>
                             </div>
                         </div>
@@ -38,7 +38,7 @@ export default function Menu(){
                         <a href="#">
                         <Image src="/hirebgb.png" alt="Image 1" width={1000} height={1000} className="rounded-t-md" unoptimized={true} />
                         </a>
-                        <div className="p-1">
+                        <div className="p-1 px-1">
                             <div className="pt-1 lg:pt-0 md:text-xl">
                                 <div className="px-1">
                                     <p className="">黒耀のとんかつ弁当</p>
@@ -48,7 +48,7 @@ export default function Menu(){
                                 <div className="px-1 pt-4">
                                     <p className="">黒耀のとんかつ弁当</p>
                                     <p className="pb-2">特上ヒレ</p>
-                                    <p className="font-extrabold">2,160円</p>
+                                    <p className="font-extrabold pb-3">2,160円</p>
                                 </div>
                             </div>
                         </div>

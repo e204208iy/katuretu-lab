@@ -90,7 +90,7 @@ export default function Company(){
                 <div className="pt-7">
                     <Image src="/chamiton.jpg" alt="Image 1" width={600} height={600} unoptimized={true} className="rounded-md shadow-[0_2px_5px_0_rgba(0,0,0,0.3)]" />
                 </div>
-                <div className="pt-3 text-gray-600 text-base ">
+                <div className="pt-3 text-gray-600 text-base px-2">
                     <p>緑茶粉末とお茶に含まれている成分「カテキン」、「さつまいも」が入った飼料を食べて育った豚が「茶美豚」（ちゃーみーとん）です。茶美豚の専用飼料を食べた豚はすくすくと育つため、ジューシーであっさりした臭みを感じないおいしい豚肉になっています。</p>
                 </div>
             </div>

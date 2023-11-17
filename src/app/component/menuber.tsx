@@ -28,9 +28,14 @@ export default function Menuber(){
                             <p className={currentRoute === '/sidemenu' ? activeLi : nonActiveLi}>サイドメニュー</p>
                         </Link>
                     </li>
-                    <li className="flex">
+                    <li className={currentRoute === '/access' ? "hidden" : "flex"}>
                         <Link href="/company" className={currentRoute === '/company' ? activeStyle : nonActiveStyle}>
                             <p className={currentRoute === '/company' ? activeLi : nonActiveLi}>仕出し・企業様</p>
+                        </Link>
+                    </li>
+                    <li className={currentRoute === '/access' ? "block" : "hidden"}>
+                        <Link href="/access" className={currentRoute === '/access' ? activeStyle : nonActiveStyle}>
+                            <p className={currentRoute === '/access' ? activeLi : nonActiveLi}>アクセス</p>
                         </Link>
                     </li>
                 </ul>
