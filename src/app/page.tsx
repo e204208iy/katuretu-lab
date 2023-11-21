@@ -93,7 +93,7 @@ export default function Menu(){
                 <div className="lg:hidden grid grid-cols-1 lg:grid-cols-2 px-4">
                 <div className="col-span-1">
                     <div className="px-2 pt-2">
-                        <Image src="/kaki3.png" alt="Image 1" width={500} height={700} unoptimized={true} className="rounded-md shadow-[0_2px_5px_0_rgba(0,0,0,0.3)]" />
+                        <Image src="/kaki.png" alt="Image 1" width={500} height={700} unoptimized={true} className="rounded-md shadow-[0_2px_5px_0_rgba(0,0,0,0.3)]" />
                     </div>
                 </div>
                 <div className="grid grid-cols-3 gap-1 pt-2 xs:text-lg sx:text-xl md:text-2xl leading-loose">
