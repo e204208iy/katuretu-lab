@@ -28,7 +28,7 @@ export default function Header(){
                             <ul className="z-50 flex tracking-wider font-medium text-gray-600">
                                 <li className="pr-10">
                                     <Link href="/">
-                                        こだわり
+                                        お弁当
                                     </Link>
                                 </li>
                                 <li className="pr-10">

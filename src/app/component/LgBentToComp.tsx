@@ -21,8 +21,9 @@ export default function LgBentoToComp(){
                                     <p className="px-2 pb-3">1,404円</p>
                                     <p className="pb-4 px-2">2,160円</p>
                                 </div>
-                                </div>
                             </div>
+                            <p className=" text-gray-500">※無料の鹿児島茶付き</p>
+                        </div>
                     </div>
                 </div>
                 <div className="grid col-span-1 grid-cols-1">
@@ -44,6 +45,7 @@ export default function LgBentoToComp(){
                                     <p className="pb-4 px-2">2,160円</p>
                                 </div>
                             </div>
+                            <p className=" text-gray-500">※無料の鹿児島茶付き</p>
                         </div>
                     </div>
                 </div>

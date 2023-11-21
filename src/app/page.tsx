@@ -55,6 +55,7 @@ export default function Menu(){
                     </div>
                 </div>
             </div>
+            <p className="pt-3 text-gray-500">※ごはん大盛り (100g) 108円</p>
             <div className="px-2 pb-2 pt-6 text-gray-700">
                 <p className="text-lg xs:text-2xl sx:text-xl md:text-3xl font-medium pl-2 pt-4 border-gray-300 border-b-2 tracking-wider">カレー</p>
             </div>
@@ -84,6 +85,32 @@ export default function Menu(){
                         <p className="p-2 lg:pb-9">1,296円</p>
                     </div>
                 </div>
+            </div>
+            <div className="lg:hidden">
+                <div className="px-2 pb-2 pt-6 text-gray-700">
+                    <p className="text-lg xs:text-2xl md:text-3xl font-medium pl-2 pt-4 border-gray-300 border-b-2 tracking-wider">季節限定</p>
+                </div>
+                <div className="lg:hidden grid grid-cols-1 lg:grid-cols-2 px-4">
+                <div className="col-span-1">
+                    <div className="px-2 pt-2">
+                        <Image src="/kaki3.png" alt="Image 1" width={500} height={700} unoptimized={true} className="rounded-md shadow-[0_2px_5px_0_rgba(0,0,0,0.3)]" />
+                    </div>
+                </div>
+                <div className="grid grid-cols-3 gap-1 pt-2 xs:text-lg sx:text-xl md:text-2xl leading-loose">
+                    <div className="col-span-2">
+                        <p className="p-2 lg:pb-9">カキフライ弁当（3粒）</p>
+                        <p className="p-2 lg:pb-9">カキフライ弁当（4粒）</p>
+                        <p className="p-2 lg:pb-9">カキフライカレー弁当（3粒）</p>
+                        <p className="p-2">カキフライカレー弁当（3粒）</p>
+                    </div>
+                    <div className="text-right font-medium">
+                        <p className="p-2 lg:pb-9">1,296円</p>
+                        <p className="p-2 lg:pb-9">1,566円</p>
+                        <p className="p-2 lg:pb-9">1,404円</p>
+                        <p className="p-2 lg:pb-9">1,674円</p>
+                    </div>
+                </div>
+            </div>
             </div>
             <div className="px-2 pb-2 pt-6 text-gray-700">
                 <p className="text-lg xs:text-2xl md:text-3xl font-medium pl-2 pt-4 border-gray-300 border-b-2 tracking-wider">レギュラーメニュー</p>

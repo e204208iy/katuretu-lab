@@ -84,8 +84,9 @@ export default function Company(){
                         </div>
                     </div>
                 </div>
+                <p className="pt-3 text-gray-500 lg:hidden">※無料の鹿児島茶付き</p>
                 <div className="pt-5">
-                    <p className="text-lg md:text-3xl text-gray-800 font-medium tracking-wider">鹿児島ブランド豚「茶美豚」を使用</p>
+                    <p className="text-lg md:text-3xl text-gray-700 font-medium tracking-wider">鹿児島ブランド豚「茶美豚」を使用</p>
                 </div>
                 <div className="pt-7">
                     <Image src="/chamiton.jpg" alt="Image 1" width={600} height={600} unoptimized={true} className="rounded-md shadow-[0_2px_5px_0_rgba(0,0,0,0.3)]" />

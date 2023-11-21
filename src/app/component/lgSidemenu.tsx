@@ -27,6 +27,11 @@ export default function LgSidemenu(){
 		setSideIsActive(false);
         setCompIsActive(true);
 	}
+    const handleOtherChange = () =>{
+        setBentoIsActive(false);
+		setSideIsActive(false);
+        setCompIsActive(false);
+    }
     return(
         <div className="pr-7">
             <div className="flex flex-col text-md pt-10">
@@ -67,17 +72,7 @@ export default function LgSidemenu(){
                 <p className="py-2 search-content">その他</p>
                 <ul className="pl-2 font-medium text-gray-500">
                     <li className="pb-6 tracking-wider">
-                        <Link href="/contact">
-                            ご予約・ご注文
-                        </Link>
-                    </li>
-                    <li className="tracking-wider">
-                        <Link href="/">
-                            こだわり
-                        </Link>
-                    </li>
-                    <li className="py-6 tracking-wider">
-                        <Link href="/access">
+                        <Link href="/access" onClick={handleOtherChange}>
                             お店の場所
                         </Link>
                     </li>
