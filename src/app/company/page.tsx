@@ -84,7 +84,6 @@ export default function Company(){
                         </div>
                     </div>
                 </div>
-                <p className="pt-3 text-gray-500 lg:hidden">※無料の鹿児島茶付き</p>
                 <div className="pt-5">
                     <p className="text-lg md:text-3xl text-gray-700 font-medium tracking-wider">鹿児島ブランド豚「茶美豚」を使用</p>
                 </div>

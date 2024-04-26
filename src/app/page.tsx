@@ -149,12 +149,16 @@ export default function Menu(){
                     </div>
                     <div className="text-right font-medium px-3">
                         <p className="p-2">950円</p>
-                        <p className="pt-2 px-2">　</p>
-                        <p className="pb-2 px-2">918円</p>
-                        <p className="pt-2 px-2">　</p>
-                        <p className="pb-2 px-2">1242円</p>
-                        <p className="pt-2 px-2">　</p>
-                        <p className="pb-2 px-2">594円</p>
+                        
+                        <p className="pt-2 px-2">918円</p>
+                        <p className="pb-2 px-2">　</p>
+                        
+                        <p className="pt-2 px-2">1242円</p>
+                        <p className="pb-2 px-2">　</p>
+                        
+                        <p className="pt-2 px-2">594円</p>
+                        <p className="pb-2 px-2">　</p>
+                        
                         <p className="p-2">918円</p>
                         <p className="p-2">918円</p>
                         <p className="p-2">1,188円</p>
