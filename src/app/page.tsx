@@ -13,7 +13,7 @@ export default function Menu(){
         <div className="px-1 pb-1">
             <div className="lg:hidden grid grid-cols-2 pt-3 gap-1">
                 <div className="col-span-1">
-                    <div className=" bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
+                    <div className=" bg-white border border-gray-200 rounded-lg shadow">
                         <a href="#">
                             <Image src="/rosubgb.png" alt="Image 1" width={1000} height={1000} className="rounded-t-md" unoptimized={true} />
                         </a>
@@ -34,7 +34,7 @@ export default function Menu(){
                     </div>
                 </div>
                 <div className="col-span-1">
-                    <div className=" bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
+                    <div className=" bg-white border border-gray-200 rounded-lg shadow">
                         <a href="#">
                         <Image src="/hirebgb.png" alt="Image 1" width={1000} height={1000} className="rounded-t-md" unoptimized={true} />
                         </a>
@@ -73,13 +73,19 @@ export default function Menu(){
                 </div>
                 <div className="grid grid-cols-3 gap-1 pt-2 xs:text-lg sx:text-xl md:text-2xl leading-loose">
                     <div className="col-span-2">
-                        <p className="p-2 lg:pb-9">ロースカツカレー弁当</p>
+                        <p className="pt-2 lg:pb-9">ロースカツカレー弁当</p>
+                        <p className="pb-2 lg:pb-9">【ランチサイズ】</p>
+                        <p className="pt-2 lg:pb-9">ロースカツカレー弁当</p>
+                        <p className="pb-2 lg:pb-9">【レギュラーサイズ】</p>
                         <p className="p-2 lg:pb-9">ヒレカツカレー弁当</p>
                         <p className="p-2 lg:pb-9">チキンカツカレー弁当</p>
                         <p className="p-2">メンチカツカレー弁当</p>
                     </div>
                     <div className="text-right font-medium">
-                        <p className="p-2 lg:pb-9">1,404円</p>
+                        <p className="pt-2 px-2 lg:pb-9">1,350円</p>
+                        <p className="pb-2 px-2 lg:pb-9">　</p>
+                        <p className="pt-2 px-2 lg:pb-9">1,620円</p>
+                        <p className="pb-2 px-2 lg:pb-9">　</p>
                         <p className="p-2 lg:pb-9">1,404円</p>
                         <p className="p-2 lg:pb-9">1,296円</p>
                         <p className="p-2 lg:pb-9">1,296円</p>
@@ -100,14 +106,18 @@ export default function Menu(){
                     <div className="col-span-2">
                         <p className="p-2 lg:pb-9">カキフライ弁当（3粒）</p>
                         <p className="p-2 lg:pb-9">カキフライ弁当（4粒）</p>
-                        <p className="p-2 lg:pb-9">カキフライカレー弁当（3粒）</p>
-                        <p className="p-2">カキフライカレー弁当（3粒）</p>
+                        <p className="p-2 lg:pb-9">カキフライカレー弁当</p>
+                        <p>（3粒）</p>
+                        <p className="p-2">カキフライカレー弁当</p>
+                        <p>（3粒）</p>
                     </div>
                     <div className="text-right font-medium">
                         <p className="p-2 lg:pb-9">1,296円</p>
                         <p className="p-2 lg:pb-9">1,566円</p>
-                        <p className="p-2 lg:pb-9">1,404円</p>
-                        <p className="p-2 lg:pb-9">1,674円</p>
+                        <p className="pt-2 px-2 lg:pb-9">1,404円</p>
+                        <p className="pb-2 px-2">　</p>
+                        <p className="pt-2 px-2 lg:pb-9">1,674円</p>
+                        <p className="pb-2 px-2">　</p>
                     </div>
                 </div>
             </div>
@@ -124,8 +134,12 @@ export default function Menu(){
                 <div className="grid grid-cols-3 gap-1 pt-2 xs:text-lg sx:text-xl md:text-2xl leading-loose">
                     <div className="col-span-2 px-3">
                         <p className="p-2">茶美豚ロースカツ弁当</p>
-                        <p className="p-2">生姜焼き弁当　ロース</p>
-                        <p className="p-2">生姜焼き弁当　ヒヒレ</p>
+                        <p className="pt-2 pl-2">生姜焼き弁当(豚肉150g)</p>
+                        <p className="pb-2 pl-2">マヨネーズ小袋1P付き</p>
+                        <p className="pt-2 pl-2">生姜焼き弁当(豚肉200g)</p>
+                        <p className="pb-2 pl-2">マヨネーズ小袋1P付き</p>
+                        <p className="pt-2 pl-2">生姜焼き【おかずのみ】</p>
+                        <p className="pb-2 pl-2">マヨネーズ小袋1P付き</p>
                         <p className="p-2">メンチカツ弁当</p>
                         <p className="p-2">チキンカツ弁当</p>
                         <p className="p-2">Bigチキンカツ弁当</p>
@@ -135,8 +149,12 @@ export default function Menu(){
                     </div>
                     <div className="text-right font-medium px-3">
                         <p className="p-2">950円</p>
-                        <p className="p-2">918円</p>
-                        <p className="p-2">918円</p>
+                        <p className="pt-2 px-2">　</p>
+                        <p className="pb-2 px-2">918円</p>
+                        <p className="pt-2 px-2">　</p>
+                        <p className="pb-2 px-2">1242円</p>
+                        <p className="pt-2 px-2">　</p>
+                        <p className="pb-2 px-2">594円</p>
                         <p className="p-2">918円</p>
                         <p className="p-2">918円</p>
                         <p className="p-2">1,188円</p>

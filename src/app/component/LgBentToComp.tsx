@@ -4,13 +4,13 @@ export default function LgBentoToComp(){
     return(
             <div className="grid grid-cols-2 gap-3 pt-3 pb-5">
                 <div className="grid col-span-1 grid-cols-1">
-                    <div className=" bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
+                    <div className=" bg-white border border-gray-200 rounded-lg shadow dark:border-gray-700">
                         <a href="#">
                             <Image src="/rosubgb.png" alt="Image 1" width={1000} height={1000} className="rounded-t-md" unoptimized={true} />
                         </a>
                         <div className="p-5">
                             <a href="#">
-                                <h5 className="mb-2 text-2xl font-bold text-gray-900 dark:text-white tracking-wider">ロースカツ弁当</h5>
+                                <h5 className="mb-2 text-2xl font-bold text-gray-900 tracking-wider">ロースカツ弁当</h5>
                             </a>
                             <div className="grid grid-cols-4 gap-1 pt-3 lg:pt-0 md:text-xl">
                                 <div className="col-span-3">
@@ -22,18 +22,17 @@ export default function LgBentoToComp(){
                                     <p className="pb-4 px-2">2,160円</p>
                                 </div>
                             </div>
-                            <p className=" text-gray-500">※無料の鹿児島茶付き</p>
                         </div>
                     </div>
                 </div>
                 <div className="grid col-span-1 grid-cols-1">
-                    <div className=" bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
+                    <div className=" bg-white border border-gray-200 rounded-lg shadow dark:border-gray-700">
                         <a href="#">
                         <Image src="/hirebgb.png" alt="Image 1" width={1000} height={1000} className="rounded-t-md" unoptimized={true} />
                         </a>
                         <div className="p-5">
                             <a href="#">
-                                <h5 className="mb-2 text-2xl font-bold text-gray-900 dark:text-white tracking-wider">ヒレカツ弁当</h5>
+                                <h5 className="mb-2 text-2xl font-bold text-gray-900 tracking-wider">ヒレカツ弁当</h5>
                             </a>
                             <div className="grid grid-cols-4 gap-1 md:text-xl">
                                 <div className="col-span-3">
@@ -45,7 +44,6 @@ export default function LgBentoToComp(){
                                     <p className="pb-4 px-2">2,160円</p>
                                 </div>
                             </div>
-                            <p className=" text-gray-500">※無料の鹿児島茶付き</p>
                         </div>
                     </div>
                 </div>

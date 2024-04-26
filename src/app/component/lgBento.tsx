@@ -4,13 +4,13 @@ export default function LgBento(){
     return(
             <div className="grid grid-cols-3 gap-3">
                 <div className="grid col-span-1">
-                    <div className=" bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
+                    <div className=" bg-white border border-gray-200 rounded-lg shadow">
                         <a href="#">
                             <Image src="/rosubgb.png" alt="Image 1" width={1000} height={1000} className="rounded-t-md" unoptimized={true} />
                         </a>
                         <div className="px-3 pt-3">
                             <a href="#">
-                                <h5 className="mb-2 text-xl font-bold text-gray-900 dark:text-white tracking-wider">ロースカツ弁当</h5>
+                                <h5 className="mb-2 text-xl font-bold text-gray-900 tracking-wider">ロースカツ弁当</h5>
                             </a>
                             <div className="pt-3 lg:pt-0 md:text-lg">
                                 <div className="col-span-3">
@@ -24,13 +24,13 @@ export default function LgBento(){
                     </div>
                 </div>
                 <div className="grid col-span-1">
-                    <div className=" bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
+                    <div className=" bg-white border border-gray-200 rounded-lg shadow">
                         <a href="#">
                         <Image src="/hirebgb.png" alt="Image 1" width={1000} height={1000} className="rounded-t-md" unoptimized={true} />
                         </a>
                         <div className="px-3 pt-3">
                             <a href="#">
-                                <h5 className="mb-2 text-xl font-bold text-gray-900 dark:text-white tracking-wider">ヒレカツ弁当</h5>
+                                <h5 className="mb-2 text-xl font-bold text-gray-900 tracking-wider">ヒレカツ弁当</h5>
                             </a>
                             <div className="md:text-lg">
                                 <div className="col-span-3">
@@ -44,13 +44,13 @@ export default function LgBento(){
                     </div>
                 </div>
                 <div className="grid col-span-1">
-                    <div className=" bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
+                    <div className=" bg-white border border-gray-200 rounded-lg shadow">
                         <div>
                             <Image src="/kaki.png" alt="Image 1" width={1000} height={1000} className="rounded-t-md" unoptimized={true} />
                         </div>
                         <div className="px-3 pt-3">
                             <p>
-                                <h5 className="mb-2 text-xl font-bold text-gray-900 dark:text-white tracking-wider">季節限定</h5>
+                                <h5 className="mb-2 text-xl font-bold text-gray-900  tracking-wider">季節限定</h5>
                             </p>
                             <div className="md:text-lg">
                                 <div className="">

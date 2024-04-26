@@ -59,8 +59,8 @@ export default function Company(){
                     <div className="grid grid-cols-4 gap-1 pt-3 lg:pt-0 xs:text-lg sx:text-xl md:text-2xl">
                         <div className="col-span-3">
                             <p className="font-medium pl-2 lg:pb-4 text-lg xs:text-2xl md:text-3xl">ロース</p>
-                            <p className="pl-2 pb-3">黒耀のとんかつ弁当　ロース</p>
-                            <p className="pb-4 pl-2">黒耀のとんかつ弁当　特上ロース</p>
+                            <p className="pl-2 pb-3">黒耀のロースカツ弁当</p>
+                            <p className="pb-4 pl-2">黒耀のロースカツ弁当 【特上ロース】</p>
                         </div>
                         <div className="text-right font-medium">
                             <p className="font-medium pl-2 lg:pb-4 text-lg xs:text-2xl md:text-3xl">　</p>
@@ -74,8 +74,8 @@ export default function Company(){
                     <div className="grid grid-cols-4 gap-1 pt-3 lg:pt-5 xs:text-lg sx:text-xl md:text-2xl">
                         <div className="col-span-3">
                             <p className="font-medium pl-2 lg:pb-4 text-lg xs:text-2xl md:text-3xl">ヒレ</p>
-                            <p className="pt-2 pl-2 pb-3">黒耀のとんかつ弁当　ヒレ</p>
-                            <p className="pb-4 pl-2">黒耀のとんかつ弁当　特上ヒレ</p>
+                            <p className="pt-2 pl-2 pb-3">黒耀のヒレカツ弁当</p>
+                            <p className="pb-4 pl-2">黒耀のヒレカツ弁当 【特上】</p>
                         </div>
                         <div className="text-right font-medium">
                             <p className="font-medium pl-2 lg:pb-4 text-lg xs:text-2xl md:text-3xl">　</p>

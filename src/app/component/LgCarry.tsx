@@ -8,18 +8,18 @@ export default function LgCarry(){
                     <Image className="object-cover rounded-t-lg h-96 md:rounded-none md:rounded-l-lg" src="/carry1.png" alt="" width={1000} height={1000} unoptimized={true} />
                 </div>
                 <div className="flex flex-col justify-between p-4 leading-normal">
-                    <div className="grid grid-cols-2 text-2xl">
+                    <div className="grid grid-cols-2 text-xl">
                         <div>
-                            <p className="pb-7 tracking-tight text-gray-900 dark:text-white">ロースカツカレー弁当</p>
-                            <p className="pb-7 tracking-tight text-gray-900 dark:text-white">ヒレカツカレー弁当</p>
-                            <p className="pb-7 tracking-tight text-gray-900 dark:text-white">チキンカツカレー弁当</p>
-                            <p className="pb-7 tracking-tight text-gray-900 dark:text-white">メンチカツカレー弁当</p>
+                            <p className="pb-7 tracking-tight text-gray-900">ロースカツカレー弁当</p>
+                            <p className="pb-7 tracking-tight text-gray-900">ヒレカツカレー弁当</p>
+                            <p className="pb-7 tracking-tight text-gray-900">チキンカツカレー弁当</p>
+                            <p className="pb-7 tracking-tight text-gray-900">メンチカツカレー弁当</p>
                         </div>
                         <div className="pl-20">
-                            <p className="pb-7 text-gray-700 dark:text-gray-400 font-bold">1,404円</p>
-                            <p className="pb-7 text-gray-700 dark:text-gray-400 font-bold">1,404円</p>
-                            <p className="pb-7 text-gray-700 dark:text-gray-400 font-bold">1,296円</p>
-                            <p className="pb-7 text-gray-700 dark:text-gray-400 font-bold">1,296円</p>
+                            <p className="pb-7 text-gray-700 font-bold">1,404円</p>
+                            <p className="pb-7 text-gray-700 font-bold">1,404円</p>
+                            <p className="pb-7 text-gray-700 font-bold">1,296円</p>
+                            <p className="pb-7 text-gray-700 font-bold">1,296円</p>
                         </div>
                     </div>
                 </div>
